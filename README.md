@@ -2,7 +2,7 @@
 
 ## I: titanic data EDA analysis 
 
-# Cleaned Data
+Cleaned Data
 ![data1](part1/data1.png)
 
 ![data2](part1/data2.png)
