@@ -1,4 +1,4 @@
-# collection of data science practice sets 
+# collection of data science projects
 
 ## I: titanic data EDA analysis 
 
