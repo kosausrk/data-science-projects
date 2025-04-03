@@ -17,16 +17,32 @@ print(df_test.head())
 print("\nGender Submission Data:")
 print(df_gender_submission.head())
 
-# Data Overview
-print("\nTrain Data Info:")
-df_train.info()
-print("\nMissing Values:")
-print(df_train.isnull().sum())
-
-# Visualization of missing data
+# 🔹 2. Age Distribution of Survivors vs. Non-Survivors
 plt.figure(figsize=(10, 6))
-sns.heatmap(df_train.isnull(), cmap='viridis', cbar=False, yticklabels=False)
-plt.title("Missing Values in Train Dataset")
+sns.histplot(df_train[df_train["Survived"] == 1]["Age"], bins=30, kde=True, color="green", label="Survived")
+sns.histplot(df_train[df_train["Survived"] == 0]["Age"], bins=30, kde=True, color="red", label="Did Not Survive")
+plt.title("Age Distribution: Survivors vs. Non-Survivors")
+plt.xlabel("Age")
+plt.ylabel("Count")
+plt.legend()
+plt.show()
+
+# 🔹 3. Fare Distribution by Class
+plt.figure(figsize=(10, 5))
+sns.boxplot(x="Pclass", y="Fare", data=df_train, palette="viridis")
+plt.title("Fare Distribution by Passenger Class")
+plt.xlabel("Passenger Class")
+plt.ylabel("Fare")
+plt.ylim(0, 300)  # Avoid extreme outliers
+plt.show()
+
+# 🔹 4. Gender & Survival Relationship
+plt.figure(figsize=(6, 4))
+sns.barplot(x="Sex", y="Survived", data=df_train, palette="pastel")
+plt.title("Survival Rate by Gender")
+plt.xlabel("Gender")
+plt.ylabel("Survival Rate")
+plt.show()
 plt.show()
 
 # Survival Rate Analysis
