@@ -2,7 +2,7 @@
 
 ## I: titanic data EDA analysis 
 
-Cleaned Data
+Visualize Data
 ![data1](part1/data1.png)
 
 ![data2](part1/data2.png)
@@ -13,3 +13,36 @@ Cleaned Data
 
 
 ## II: Sentiment Analysis on Movie Reviews 
+This project uses a Naive Bayes classifier on a shortened IMDb dataset (100 rows) to classify reviews as positive or negative. It loads data from part2/data/movie-data1.csv, preprocesses text using CountVectorizer, trains the model, and visualizes results with sentiment charts, word clouds, and a confusion matrix.
+
+
+Visualize Data 
+![data1](part2/data1.png)
+
+![data2](part2/data2.png)
+
+![data3](part2/data3.png)
+
+![data4](part2/data4.png)
+
+Citation: Stanford AI Large Movie Review Dataset
+
+@InProceedings{maas-EtAl:2011:ACL-HLT2011,
+author = {Maas, Andrew L. and Daly, Raymond E. and Pham, Peter T. and Huang, Dan and Ng, Andrew Y. and Potts, Christopher},
+title = {Learning Word Vectors for Sentiment Analysis},
+booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
+month = {June},
+year = {2011},
+address = {Portland, Oregon, USA},
+publisher = {Association for Computational Linguistics},
+pages = {142--150},
+url = {http://www.aclweb.org/anthology/P11-1015}
+}
+
+
+
+
+
+
+
+
