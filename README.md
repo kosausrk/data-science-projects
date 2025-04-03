@@ -3,6 +3,7 @@
 ## I: titanic data EDA analysis 
 
 Visualize Data
+
 ![data1](part1/data1.png)
 
 ![data2](part1/data2.png)
@@ -17,6 +18,7 @@ This project uses a Naive Bayes classifier on a shortened IMDb dataset (100 rows
 
 
 Visualize Data 
+
 ![data1](part2/data1.png)
 
 ![data2](part2/data2.png)
@@ -25,7 +27,7 @@ Visualize Data
 
 ![data4](part2/data4.png)
 
-Citation: Stanford AI Large Movie Review Dataset
+Citation: Stanford AI Large Movie Review Dataset https://ai.stanford.edu/~amaas/data/sentiment/ 
 
 @InProceedings{maas-EtAl:2011:ACL-HLT2011,
 author = {Maas, Andrew L. and Daly, Raymond E. and Pham, Peter T. and Huang, Dan and Ng, Andrew Y. and Potts, Christopher},
