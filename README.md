@@ -50,11 +50,11 @@ This project uses a Random Forest Regressor to predict house prices using the Am
 
 Visualize Data
 
-![data1](data1.png)
+![data1](part3/data1.png)
 
-![data2](data2.png)
+![data2](part3/data2.png)
 
-![data3](data3.png)
+![data3](part3/data3.png)
 
 
 
