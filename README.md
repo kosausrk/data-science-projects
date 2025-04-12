@@ -45,6 +45,21 @@ url = {http://www.aclweb.org/anthology/P11-1015}
 }
 
 
+## III: Predicting House Prices with Machine Learning
+This project uses a Random Forest Regressor to predict house prices using the Ames Housing dataset (via Kaggle https://www.kaggle.com/datasets/shashanknecrothapa/ames-housing-dataset?select=AmesHousing.csv). The data is preprocessed by filling missing values, encoding categorical features, and visualizing key insights. A regression model is trained, evaluated using RMSE and R² scores, and feature importances are visualized.
+
+Visualize Data
+
+![data1](part3/data1.png)
+
+![data2](part3/data2.png)
+
+![data3](part3/data3.png)
+
+
+
+
+
 
 
 
