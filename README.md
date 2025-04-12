@@ -58,6 +58,26 @@ Visualize Data
 
 
 
+## IV: Customer Segmentation with K-Means Clustering
+
+This project uses K-Means clustering to segment customers based on Age, Annual Income, and Spending Score. After performing exploratory data analysis (EDA), we preprocess the data with scaling and apply K-Means to discover underlying customer groups. The elbow method is used to determine the optimal number of clusters. PCA is then applied to reduce the data to two dimensions for visualizing the clusters effectively. This kind of segmentation can help businesses better understand their audience and tailor marketing strategies accordingly.
+
+Visualize Data
+
+**Gender Distribution**  
+![data1](part4/data1.png)
+
+**Spending Score vs. Annual Income**  
+![data2](part4/data2.png)
+
+**Elbow Method to Find Optimal Clusters**  
+![data3](part4/data3.png)
+
+**Customer Segments Visualized with PCA**  
+![data4](part4/data4.png)
+
+**Spending Score by Cluster**  
+![data5](part4/data5.png)
 
 
 
