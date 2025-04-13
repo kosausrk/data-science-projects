@@ -81,6 +81,18 @@ Visualize Data
 
 
 
+## V: Bike Sharing Demand Forecasting with Facebook Prophet
+
+This project focuses on forecasting daily bike rental demand using the Bike Sharing Dataset (day.csv). Using the Meta Prophet library (https://facebook.github.io/prophet/)  to model both seasonality and trend. After exploring the time series visually, we split the data into training and test sets, fit the model, generate forecasts, and evaluate performance using MAE and RMSE. The model also allows for interpretability through trend and seasonal components, which helps understand how factors like seasonality affect ridership.
+
+This type of forecasting can help cities and businesses manage fleet distribution, anticipate high-demand periods, and optimize resource planning.
+
+Visualize Data
+
+![data1](part5/data1.png)
+![data2](part5/data2.png)
+![data3](part5/data3.png)
+![data4](part5/data4.png)
 
 
 
