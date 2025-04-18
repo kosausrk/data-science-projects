@@ -95,6 +95,22 @@ Visualize Data
 ![data4](part5/data4.png)
 
 
+## VI: PCA & Risk‑Parity Visualizations
 
+This code produces four key charts:
 
+**1. PC1 & PC2 Loadings Heatmap**  
+![data1](part6/data1.png)  
+Shows which stocks contribute most heavily to the first two principal components.
 
+**2. Explained Variance (Scree Plot)**  
+![data2](part6/data2.png)  
+Displays how much of the total return variance each of the five PCA components captures.
+
+**3. Rolling PCA Variance**  
+![data3](part6/data3.png)  
+Tracks the fraction of variance explained by PC1 and PC2 over time using a 60‑day sliding window.
+
+**4. Stock Clustering Dendrogram**  
+![data4](part6/data4.png)  
+Maps how the twelve stocks group together hierarchically based on their return correlations.
