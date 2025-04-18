@@ -117,6 +117,6 @@ Maps how the twelve stocks group together hierarchically based on their return c
 
 
 
-## VII: Baby‑Name Popularity Streamgraph
+## VII: Name Popularity Streamgraph
 
 ![data1](part7/data1.png)
