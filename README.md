@@ -1,5 +1,7 @@
 # collection of data science projects
 
+Last Updated: 04/18/2025
+
 ## I: titanic data EDA analysis 
 
 Visualize Data
