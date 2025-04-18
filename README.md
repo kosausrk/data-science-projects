@@ -114,3 +114,9 @@ Tracks the fraction of variance explained by PC1 and PC2 over time using a 60‑
 **4. Stock Clustering Dendrogram**  
 ![data4](part6/data4.png)  
 Maps how the twelve stocks group together hierarchically based on their return correlations.
+
+
+
+## VII: Baby‑Name Popularity Streamgraph
+
+![data1](part7/data1.png)
