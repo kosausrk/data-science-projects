@@ -1,6 +1,6 @@
 # collection of data science projects
 
-Last Updated: 04/18/2025
+Last Updated: 04/21/2025
 
 ## I: Video Game Sales EDA Analysis
 
