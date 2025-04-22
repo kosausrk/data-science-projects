@@ -19,7 +19,7 @@ Visualize Data
 
 
 ## II: Sentiment Analysis on Movie Reviews 
-This project uses a Naive Bayes classifier on a shortened IMDb dataset (100 rows) to classify reviews as positive or negative. It loads data from part2/data/movie-data1.csv, preprocesses text using CountVectorizer, trains the model, and visualizes results with sentiment charts, word clouds, and a confusion matrix.
+This project uses a Naive Bayes classifier on a shortened IMDb dataset (1000 rows) to classify reviews as positive or negative. It loads data from part2/data/movie-data1.csv, preprocesses text using CountVectorizer, trains the model, and visualizes results with sentiment charts, word clouds, and a confusion matrix.
 
 
 Visualize Data 
