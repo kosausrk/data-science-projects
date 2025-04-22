@@ -2,7 +2,7 @@
 
 Last Updated: 04/18/2025
 
-## I: titanic data EDA analysis 
+## I: Video Game Sales EDA Analysis
 
 Visualize Data
 
