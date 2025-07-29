@@ -3,6 +3,7 @@
 Last Updated: 04/21/2025
 
 ## I: Video Game Sales EDA Analysis
+Tags: data visualization · EDA · matplotlib · pandas
 
 Visualize Data
 
@@ -20,6 +21,8 @@ Visualize Data
 
 ## II: Sentiment Analysis on Movie Reviews 
 This project uses a Naive Bayes classifier on a shortened IMDb dataset (1000 rows) to classify reviews as positive or negative. It loads data from part2/data/movie-data1.csv, preprocesses text using CountVectorizer, trains the model, and visualizes results with sentiment charts, word clouds, and a confusion matrix.
+
+Tags: NLP · Naive Bayes · text classification · word cloud
 
 
 Visualize Data 
@@ -50,6 +53,9 @@ url = {http://www.aclweb.org/anthology/P11-1015}
 ## III: Predicting House Prices with Machine Learning
 This project uses a Random Forest Regressor to predict house prices using the Ames Housing dataset (via Kaggle https://www.kaggle.com/datasets/shashanknecrothapa/ames-housing-dataset?select=AmesHousing.csv). The data is preprocessed by filling missing values, encoding categorical features, and visualizing key insights. A regression model is trained, evaluated using RMSE and R² scores, and feature importances are visualized.
 
+Tags: regression · Random Forest · feature engineering · Kaggle
+
+
 Visualize Data
 
 ![data1](part3/data1.png)
@@ -63,6 +69,8 @@ Visualize Data
 ## IV: Customer Segmentation with K-Means Clustering
 
 This project uses K-Means clustering to segment customers based on Age, Annual Income, and Spending Score. After performing exploratory data analysis (EDA), we preprocess the data with scaling and apply K-Means to discover underlying customer groups. The elbow method is used to determine the optimal number of clusters. PCA is then applied to reduce the data to two dimensions for visualizing the clusters effectively. This kind of segmentation can help businesses better understand their audience and tailor marketing strategies accordingly.
+
+Tags: unsupervised learning · K-Means · PCA · visualization
 
 Visualize Data
 
@@ -89,6 +97,9 @@ This project focuses on forecasting daily bike rental demand using the Bike Shar
 
 This type of forecasting can help cities and businesses manage fleet distribution, anticipate high-demand periods, and optimize resource planning.
 
+Tags: time series · forecasting · Meta Prophet 
+
+
 Visualize Data
 
 ![data1](part5/data1.png)
@@ -98,6 +109,8 @@ Visualize Data
 
 
 ## VI: PCA & Risk‑Parity Visualizations
+
+Tags: quantitative finance · PCA · risk analysis 
 
 This code produces four key charts:
 
@@ -120,5 +133,6 @@ Maps how the twelve stocks group together hierarchically based on their return c
 
 
 ## VII: Name Popularity Streamgraph
+Tags: streamgraph · plotly
 
 ![data1](part7/data1.png)
